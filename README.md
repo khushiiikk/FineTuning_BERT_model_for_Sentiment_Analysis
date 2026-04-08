@@ -11,6 +11,7 @@
   <img src="https://raw.githubusercontent.com/google-research/bert/master/bert_diagrams.png" width="600" alt="BERT Architecture"/>
 </p>
 
+
 ## 🚀 What This Project Does
 
 This project demonstrates **transfer learning** at its finest—taking Google's pre-trained BERT (Bidirectional Encoder Representations from Transformers) and fine-tuning it for binary sentiment classification. Instead of training a massive model from scratch (hello, overfitting! 👋), we leverage BERT's pre-trained knowledge and add custom layers on top.
@@ -127,6 +128,7 @@ def evaluate():
     with torch.no_grad():
         # Validation logic here
         pass
+
 🎯 Results
 After fine-tuning, the model achieves strong performance on binary sentiment classification:
 plain
